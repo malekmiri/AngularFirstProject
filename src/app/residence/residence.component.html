@@ -36,6 +36,7 @@
       <a href="#" class="btn btn-primary" (click)="show(i)">Show Location</a>
      
       <button class="btn btn-danger" (click)="deleteResidence(i.id)">Delete</button>
+      <button class="btn btn-success"  [routerLink]="['update',i.id]">Update</button>
       <button class="btn btn-dark" [routerLink]="['detailsresidence',i.id]">Show Details</button>
 
 
