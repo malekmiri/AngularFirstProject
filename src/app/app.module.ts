@@ -18,6 +18,7 @@ import { NavComponent } from './nav/nav.component';
 import { MenuComponent } from './nav/menu/menu.component';
 import { FormResidenceComponent } from './form-residence/form-residence.component';
 import {HttpClientModule} from '@angular/common/http';
+import { DetailsComponent } from './details/details.component';
 
 
 
@@ -33,6 +34,7 @@ import {HttpClientModule} from '@angular/common/http';
     NavComponent,
     MenuComponent,
     FormResidenceComponent,
+    DetailsComponent,
   ],
   imports: [
     BrowserModule,

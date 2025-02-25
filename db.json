@@ -1,3 +1,18 @@
 {
-  "residence": []
+  "residence": [
+    {
+      "id": "123",
+      "name": "Malek",
+      "address": "12 reu",
+      "image": "../../assets/images/R3.jpg",
+      "status": "disponible"
+    },
+    {
+      "id": "897",
+      "name": "Helloo",
+      "address": "78 oi",
+      "image": "../../assets/images/R2.jpg",
+      "status": "disponible"
+    }
+  ]
 }
